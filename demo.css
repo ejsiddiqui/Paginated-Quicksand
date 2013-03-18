@@ -1,0 +1,58 @@
+.pagination, ul.filter {
+	
+	width: 400px;
+	clear: both;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid orange;
+	
+}
+
+	.filter li {
+		
+		display: inline-block;
+		
+	}
+
+.pagination a {
+	
+	cursor: pointer;
+	
+}
+
+.cases {
+	
+	width: 400px;
+	height: auto;
+	border: 1px solid red;
+	float: left;
+	display: block;
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+.cases li {
+	
+	width: 180px;
+	height: 180px;
+	margin: 10px;
+	float: left;
+	background-color: green;
+			
+}
+
+.jp-current {
+	
+	color: red;
+	font-weight: bold;
+	
+}
+
+.jp-disabled {
+	
+	opacity: 0.5;
+	
+}
